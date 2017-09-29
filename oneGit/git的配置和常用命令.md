@@ -1,5 +1,5 @@
 
-#Git是用来做合作开发以及版本管理的工具（svn具有同类效果）
+# Git是用来做合作开发以及版本管理的工具（svn具有同类效果）
 
 这次课程我们需要:
 
@@ -7,13 +7,13 @@
 
 2.本地安装git去git官网下载git安装
 
-#目标
+# 目标
 
 创建本地远端同步仓库实现 提交 拉取  操作的联系
 
-#步骤:(在本地创建一个空文件夹克隆远端仓库)
+# 步骤:(在本地创建一个空文件夹克隆远端仓库)
 
-##1.新建文件夹
+## 1.新建文件夹
 
 1打开本地git(右击鼠标点击Git Bash Here)
 
@@ -21,7 +21,7 @@
 
 3之后准备克隆远端仓库(等待后续操作完成再回过头来克隆)waiting……
 
-##2连接github
+## 2连接github
 
 通过ssh连接
 
@@ -29,18 +29,18 @@
 
 $ssh-keygen -t rsa -C "你的邮箱地址"可以一路回车新建ssh key
 
-###(2)
+### (2)
 
 将ssh可以写入github
 
 找到ssh C:\users\Admiistrator.ssh（电脑用户名）下面的id_rsa.pub用sublime打开复制一下打开github登录你的账户  找到settings->SSH and GPG keys ->new SSH keys(新建一个密钥)填写tit和粘贴已经复制好的ssh key ->Add SSH key
-###(3)
+### (3)
 
 验证是否连接成功 $ ssh -T git@github.com
 
 如果SSH and GPG keys里面的钥匙由黑灰色变成了绿色  证明连接成功 相反的话连接失败
 
-##3.新建远程仓库
+## 3.新建远程仓库
 
 https://github.com/new
 
@@ -56,13 +56,13 @@ repository neame Description
 
 √Initalzie this repository with a README(会生成一个readme.md的文件)
 
-##4.git命令行克隆这个远端仓库git clone git@github.com:seveb/gittest.git
+## 4.git命令行克隆这个远端仓库git clone git@github.com:seveb/gittest.git
 
 这个网址来自:打开github登录你的账户 找到Your repositories ->你要克隆的仓库 ->clone or download
 
-#命令
+# 命令
 
-##git clone (克隆远端仓库)
+## git clone (克隆远端仓库)
 
 语法:
 
