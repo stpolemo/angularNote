@@ -1,3 +1,4 @@
+
 #Git是用来做合作开发以及版本管理的工具（svn具有同类效果）
 
 这次课程我们需要:
@@ -54,7 +55,9 @@ repository neame Description
 勾选
 
 √Initalzie this repository with a README(会生成一个readme.md的文件)
+
 ##4.git命令行克隆这个远端仓库git clone git@github.com:seveb/gittest.git
+
 这个网址来自:打开github登录你的账户 找到Your repositories ->你要克隆的仓库 ->clone or download
 
 #命令
